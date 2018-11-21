@@ -1,5 +1,5 @@
-# Policy Compass Services
-Web Services for the Policy Compass
+# CityEnabler Data Interpreter Tool Services
+Web Services for the CityEnabler Data Interpreter Tool
 
 
 ## Manual
@@ -50,8 +50,9 @@ If you chose PostgreSQL, you want to create a postgres user and a database:
 * Clone the repository including submodules
 * Note: The submodule are configured for use with SSH, so configure your access to GitHub: https://help.github.com/articles/generating-ssh-keys
 ```shell
-  git clone git@github.com:policycompass/policycompass-services.git
-  cd policycompass-services
+  git clone https://github.com/Atos-Research-and-Innovation/CityEnabler-Data-Interpreter-Tool-Back-End.git
+  
+  cd CityEnabler-Data-Interpreter-Tool-Back-End
 ```
 * Install the Requirements
 ```shell
@@ -79,8 +80,8 @@ If you chose PostgreSQL, you want to create a postgres user and a database:
 * Download the elasticsearch  from http://www.elasticsearch.org/download/
 * Unzip elasticsearch into a folder
 * Run ./bin/elasticsearch
-* Check elasticsearch URL setting in policycompass-services/settings.py (should be ok by default localhost:9200)
-* With elasticsearch and policy-compass backend services running execute the following command to rebuild index
+* Check elasticsearch URL setting in CityEnabler-Data-Interpreter-Tool-Back-End/settings.py (should be ok by default localhost:9200)
+* With elasticsearch and CityEnabler-Data-Interpreter-Tool-Back-End backend services running execute the following command to rebuild index
 ```shell
 	python manage.py rebuild_index
 ```
@@ -95,7 +96,7 @@ Read the [flake8 docs](https://flake8.readthedocs.org) for a list of all rules.
 
 The rules can be checked with the following command:
 
-    bin/flake8 apps policycompass_services --ignore E501,F403 --exclude migrations
+    bin/flake8 apps CityEnabler-Data-Interpreter-Tool-Back-End --ignore E501,F403 --exclude migrations
 
 If the `Makefile` from the main policycompass repository is used, a pre commit
 hook is installed, which checks for flake8 compliance as defined above. If this
@@ -107,8 +108,8 @@ repository, you can create a pre commit hook manually by creating a file
     bin/flake8 apps policycompass_services --ignore E501,F403 --exclude migrations
 
 
-## Policy Compass is Free Software
+## CityEnabler-Data-Interpreter-Tool-Back-End Software
 
-This project (i.e. all files in this repository if not declared otherwise) is
-licensed under the GNU Affero General Public License (AGPLv3), see
-LICENSE.txt.
+CityEnabler-Data-Interpreter-Tool-Back-End is based on the output of the PolicyCompass project. 
+
+For more information see https://github.com/policycompass
