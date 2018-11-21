@@ -96,7 +96,7 @@ Read the [flake8 docs](https://flake8.readthedocs.org) for a list of all rules.
 
 The rules can be checked with the following command:
 
-    bin/flake8 apps bin/flake8 apps --ignore E501,F403 --exclude migrations
+    bin/flake8 apps bin/flake8 apps policycompass_services --ignore E501,F403 --exclude migrations
 
 If the `Makefile` from the main policycompass repository is used, a pre commit
 hook is installed, which checks for flake8 compliance as defined above. If this
