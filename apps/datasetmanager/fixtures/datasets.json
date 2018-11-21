@@ -1,0 +1,86 @@
+[
+  {
+    "model": "datasetmanager.dataset",
+    "pk": 1,
+    "fields": {
+      "metric_id": null,
+      "time_end": "2010",
+      "time_resolution": "year",
+      "class_id": 1,
+      "resource_publisher": "Eurostat",
+      "creator_path": "https://adhocracy-prod.policycompass.eu/api/principals/users/0000000/",
+      "date_modified": "2015-07-02T11:21:16.615Z",
+      "language_id": 38,
+      "version": 1,
+      "description": "Causes of death in Spain and Germany from drug dependance in 2001 -2010",
+      "title": "Causes of death in Spain and Germany from drug dependance",
+      "resource_url": "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=hlth_cd_anr&lang=en",
+      "time_start": "2001",
+      "spatial": null,
+      "resource_id": null,
+      "data": "{\"unit\": 22, \"resolution\": \"year\", \"data_frame\": \"{\\\"82\\\":{\\\"978307200000\\\":744.0,\\\"1009843200000\\\":662.0,\\\"1041379200000\\\":702.0,\\\"1072915200000\\\":632.0,\\\"1104537600000\\\":756.0,\\\"1136073600000\\\":680.0,\\\"1167609600000\\\":716.0,\\\"1199145600000\\\":865.0,\\\"1230768000000\\\":827.0,\\\"1262304000000\\\":774.0},\\\"208\\\":{\\\"978307200000\\\":39.0,\\\"1009843200000\\\":127.0,\\\"1041379200000\\\":158.0,\\\"1072915200000\\\":181.0,\\\"1104537600000\\\":124.0,\\\"1136073600000\\\":82.0,\\\"1167609600000\\\":45.0,\\\"1199145600000\\\":76.0,\\\"1230768000000\\\":50.0,\\\"1262304000000\\\":48.0}}\"}",
+      "is_applied": false,
+      "keywords": "Deaths, Toxicomania, Drugs, Spain, Germany",
+      "license": "",
+      "unit_id": 22,
+      "resource_issued": "2015-06-05",
+      "date_created": "2015-07-02T11:21:16.615Z",
+      "date_modified": "2015-07-02T11:21:16.615Z",
+      "indicator_id": 1
+    }
+  },
+  {
+    "model": "datasetmanager.dataset",
+    "pk": 2,
+    "fields": {
+      "metric_id": null,
+      "time_end": "2009",
+      "time_resolution": "year",
+      "class_id": 1,
+      "resource_publisher": "European Monitoring Centre for Drugs and Drug Addiction (EMCDDA)",
+      "creator_path": "https://adhocracy-prod.policycompass.eu/api/principals/users/0000000/",
+      "date_modified": "2015-07-02T11:39:54.347Z",
+      "language_id": 38,
+      "version": 1,
+      "description": "Drug law offences In Germany and Spain, 1996\u20132009 Number of reports of offences 1996\u20132009",
+      "title": "Drug law offences In Germany and Spain, 1996\u20132009",
+      "resource_url": "http://www.emcdda.europa.eu/stats13#display:/stats13/dlotab1a",
+      "time_start": "1996",
+      "spatial": null,
+      "resource_id": null,
+      "data": "{\"unit\": 25, \"resolution\": \"year\", \"data_frame\": \"{\\\"82\\\":{\\\"820454400000\\\":187022,\\\"852076800000\\\":205099,\\\"883612800000\\\":216682,\\\"915148800000\\\":226563,\\\"946684800000\\\":244336,\\\"978307200000\\\":246518,\\\"1009843200000\\\":250969,\\\"1041379200000\\\":255575,\\\"1072915200000\\\":283708,\\\"1104537600000\\\":276740,\\\"1136073600000\\\":255019,\\\"1167609600000\\\":248355,\\\"1199145600000\\\":239951,\\\"1230768000000\\\":235842},\\\"208\\\":{\\\"820454400000\\\":65705,\\\"852076800000\\\":78846,\\\"883612800000\\\":81599,\\\"915148800000\\\":89994,\\\"946684800000\\\":98369,\\\"978307200000\\\":12965,\\\"1009843200000\\\":139264,\\\"1041379200000\\\":135352,\\\"1072915200000\\\":164492,\\\"1104537600000\\\":189395,\\\"1136073600000\\\":235422,\\\"1167609600000\\\":278797,\\\"1199145600000\\\":329296,\\\"1230768000000\\\":397620}}\"}",
+      "is_applied": false,
+      "keywords": "Drugs, Offences, Crime",
+      "license": "",
+      "unit_id": 25,
+      "resource_issued": "2015-06-05",
+      "date_created": "2015-07-02T11:39:54.346Z",
+      "date_modified": "2015-07-02T11:21:16.615Z",
+      "indicator_id": 1
+    }
+  },
+  {
+    "model": "datasetmanager.datasetindomain",
+    "pk": 1,
+    "fields": {
+      "dataset": 1,
+      "domain": 9
+    }
+  },
+  {
+    "model": "datasetmanager.datasetindomain",
+    "pk": 2,
+    "fields": {
+      "dataset": 2,
+      "domain": 12
+    }
+  },
+  {
+    "model": "datasetmanager.datasetindomain",
+    "pk": 3,
+    "fields": {
+      "dataset": 2,
+      "domain": 8
+    }
+  }
+]
