@@ -5,7 +5,7 @@ django-filter==0.7
 django-apptemplates==0.0.1
 django-cors-headers==0.13
 django-jsonfield==0.9.13
-requests==2.4.0
+requests==2.20.0
 pandas==0.17.1
 xlrd==0.9.3
 SPARQLWrapper==1.6.4
@@ -17,4 +17,4 @@ drf-compound-fields==0.2.2
 pep8==1.7.0
 flake8==2.5.0
 pandasdmx==0.3.1
-gunicorn==19.4.4
+gunicorn==19.5.0
